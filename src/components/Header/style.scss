@@ -1,7 +1,7 @@
 .header-light {
     display: flex;
     justify-content: space-between;
-    padding: 0.5rem 4.625rem;
+    padding: 0.5rem 4rem;
     background: var(--primary-dark);
 
     time {
@@ -19,7 +19,7 @@
 .header-dark {
     display: flex;
     justify-content: space-between;
-    padding: 0 4.625rem;
+    padding: 0 4rem;
     background: var(--primary-dark2);
 
     img {
@@ -32,7 +32,7 @@
         color: var(--white);
         align-items: center;
         gap: 1.4rem;
-        margin-left: 14.25rem;
+        margin-left: 10rem;
 
         a {
             display: inline-block;
@@ -59,9 +59,28 @@
 }
 
 .stores {
+
+    display: flex;
+    justify-items: center;
+    align-items: center;
+
     span {
         color: var(--primary);
-        display: flex;
-        align-items: center;
+        margin-right: 2rem;
+    }
+
+    img {
+        object-fit: none;
+        max-width: 82px;
+    }
+}
+
+.user-icons {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+
+    span {
+        color: var(--white);
     }
 }

@@ -4,6 +4,8 @@ import { IoIosSearch } from 'react-icons/io';
 import { useState } from 'react';
 import './style.scss';
 import Logo from '../../images/Chippu2.png';
+import Google from '../../images/googleplay.png';
+import Apple from '../../images/applestore.png';
 
 
 
@@ -76,14 +78,14 @@ export function Header(){
 
                 <nav className="stores">
                     <span>Podcast</span>
-                    <a href="#">Google</a>
-                    <a href="#">Apple</a>
+                    <img src={Google} alt="Google Play" />
+                    <img src={Apple} alt="Apple Store" />
                 </nav>
 
-                <div>
-                    <IoIosSearch />
+                <div className="user-icons">
+                    <IoIosSearch color='#FAFAFA'/>
                     <span>|</span>
-                    <FaRegUser />
+                    <FaRegUser color='#FAFAFA'/>
                 </div>
             </div>
         </div>
