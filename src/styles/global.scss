@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  :root {
+    --primary: #48D9D3;
+    --primary-dark: #18726E;
+    --primary-dark2 : #0E1C1E;
+    --gray: #818282;
+    --gray-light: #B5B5B5;
+    --gray-dark: #353636;
+    --white: #FAFAFA;
+    --cyan-200: #3399FD;
+
+  
+  }
+  
+  @media (max-width : 1080px){
+    html {
+        font-size: 93.75%;
+    }
+  }
+  
+  @media (max-width : 720){
+    html {
+        font-size: 87.5%;
+    }
+  }
+  
+  body {
+    background: var(--white);
+    color:var(--primary-dark2);
+  }
+  
+  body, input , textarea, select , button {
+    font: 400 1rem 'Open Sans', sans-serif;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
