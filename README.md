@@ -1,6 +1,6 @@
 # New Chippu Template Demo 
 
-<img src="exemplo-image.png" alt="exemplo imagem">
+<img src="https://i.postimg.cc/3RZF1Xp9/Pagina.png" alt="exemplo imagem">
 
 > Este template foi um exercicio para recriar a interface do site Chippu
 
