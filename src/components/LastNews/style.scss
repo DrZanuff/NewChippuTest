@@ -1,0 +1,63 @@
+.last-news {
+    display: flex;
+    padding: 0.5rem 4rem;
+    margin-top: 2rem;
+
+    .hilight {
+        background: #E90000;
+        color : var(--white);
+        font-size: 12px;
+        min-width: 110px;
+        border-radius: 2px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+        span {        
+            font-family: 'Quicksand';
+            padding: 0.5rem;
+        }
+
+    }
+
+}
+
+.BrainhubCarousel__container {
+    margin: auto 0;
+
+}
+
+.BrainhubCarouselItem {
+    justify-content: flex-start;
+    padding-left: 2rem;
+    padding-top: auto;
+    padding-bottom: auto;
+}
+
+.news-controls {
+    display: flex;
+    position: absolute;
+    right: 1.5rem;
+    z-index: 2;
+    background: var(--white);
+
+    img {
+        margin-right: -2px;
+        cursor: pointer;
+    }
+    
+    img:hover {
+        filter: brightness(0.5);
+    }
+    
+}
+
+.line {
+    display: flex;
+    margin: 0.5rem 4rem;
+    height: 0.5px;
+    background:#B5B5B5;;
+}
+

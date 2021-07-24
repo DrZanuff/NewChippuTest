@@ -1,0 +1,20 @@
+.display-flex {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 4rem;
+    justify-content: center;
+
+    .body-grid {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+
+        .small {
+            display: flex;
+            margin-top: 1.2rem;
+        }
+    }
+
+
+}
+

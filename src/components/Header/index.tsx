@@ -87,6 +87,7 @@ export function Header(){
                     <span>|</span>
                     <FaRegUser color='#FAFAFA'/>
                 </div>
+
             </div>
         </div>
     )
