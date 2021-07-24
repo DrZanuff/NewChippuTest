@@ -5,6 +5,8 @@
 <img src="https://i.postimg.cc/3RZF1Xp9/Pagina.png" alt="exemplo imagem">
 
 > Este template foi um exercicio para recriar a interface do site Chippu
+
+##### Link da demo
 https://newchippu-demo.netlify.app/
 
 ## 💻 Tecnologias
