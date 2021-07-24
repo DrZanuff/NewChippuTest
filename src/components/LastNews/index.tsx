@@ -1,15 +1,8 @@
-import { useState } from 'react';
 import Carousel, { autoplayPlugin } from '@brainhubeu/react-carousel';
 import '@brainhubeu/react-carousel/lib/style.css';
 import './style.scss';
 import Left from '../../images/left-arrow-button.svg';
 import Right from '../../images/right-arrow-button.svg';
-
-
-type NewsType = {
-    id: number,
-    title: string
-}
 
 
 export function LastNews() {
